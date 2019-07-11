@@ -10,8 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
-
 .container {
   width: 100%;
   max-width: 960px;
@@ -96,7 +94,7 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
+
 
 footer {
   padding: 30px 0;
@@ -117,7 +115,7 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
-/* main */
+
 
 #main-container {
   padding-top: 130px;
@@ -214,4 +212,9 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
